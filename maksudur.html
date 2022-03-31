@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .works{
+            text-align: end;
+        }
+        .works a{
+            color: black;
+            text-decoration: none;
+            margin: 10px ;
+        }
+        .ime{
+            display: flex;
+            border: 100px solid white;
+            
+            
+        }
+        #m7{
+            border-radius: 50%;
+            
+        }
+        .recent{
+            text-align: start;
+        }
+        
+        #v{
+            color: blue;
+            
+        }
+        .rv{
+            display: flex;
+            justify-content:space-between;
+            border: 100px solid rgb(236, 246, 250);
+            border-top: 10px;
+            border-bottom: 10px;
+            background-color: rgb(236, 246, 250);
+            align-items: center;
+            
+            
+        }
+        #v{
+            text-decoration: none;
+        }
+        button{
+            background-color: red;
+            display: inline-block;
+            padding: 5px 10px ;
+            color: white;
+            
+        }
+        .box1{
+            padding:20px;
+          
+            
+        }
+        h5{
+            
+            display: inline-block;
+        
+        }
+        #one{
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #ime{
+            border: 100px solid rgb(236, 246, 250);
+            border-top:none;
+            border-bottom:none;
+            
+        }
+        #box1{
+            border-right: 5px solid rgb(236, 246, 250);
+        }
+        #box2{
+            border-left: 5px solid rgb(236, 246, 250);
+        }
+        img{
+            margin-right: 20px;
+        }
+        .hi{
+            border-top: 15px solid rgb(236, 246, 250);
+        }
+        .src{
+            display: flex;
+            border-bottom: 1px solid rgb(201, 201, 201);
+            margin-left: 60px;
+            margin-right: 75px;
+        }
+        .span{
+            background-color: black;
+            color: white;
+            padding: 3px 7px ;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+        .da{
+            color: rgb(201, 201, 201);
+        }
+        #two{
+            border: 15px solid white;
+            border-bottom: 1px solid rgb(201, 201, 201);
+        }
+        #all{
+            justify-content: center;
+            text-align: center;
+            border-bottom: none;
+        }
+        @media only screen and (max-width:600px){
+            .works{
+
+            }
+            #mashud{
+              margin-top: 20px;
+              border-bottom: 0px;
+            }
+            .ime{
+                display: block;    
+            }
+            #box1{
+            border-bottom: 5px solid rgb(236, 246, 250);
+            }
+            #box2{
+            border-top: 5px solid rgb(236, 246, 250);
+            }
+            #box1{
+                border-left: 7px solid rgb(236, 246, 250);
+            }
+            .src{
+                display: block;
+                
+            }
+            #ime{
+                text-align: center;
+            }
+            #mashud{
+                order:1;
+            }
+            #order{
+                order:2;
+            }
+            #m7{
+                
+
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="title">
+
+    
+            <header class="works">
+                <a href="">Works</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </header>
+        <seation class="ime">
+            
+            <div id="order">
+                <h1>Hi, I am Maksudur,</h1>
+                <h1>Creative Technologist</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button>Download Resume</button>
+            </div>
+            <div id="mashud">
+                <img src="./maksudur7.jpg" id="m7">
+            </div>
+        </seation>
+            <div class="rv"> 
+                <p id="r">Recent posts</p> <a href="#" id="v"> view all</a>
+            </div>
+        <seation class="ime" id="ime">
+            <div class="box1" id="box1">
+                <h1>Making a design system from scratch</h1>
+                <div>
+                    <h5>12 Feb 2020 <span id="one"> | </span></h5>
+                    <h5>Design,pattern</h5>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            <div class="box1" id="box2">
+                <h1>Creating pixel  perfect icons in Figma</h1>
+                <div> 
+                    <h5>12 Feb 2020 <span id="one"> | </span></h5>
+                    <h5>Figma, Icon Design</h5>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </seation>
+        <div class="hi"> 
+            <p id="ime">Featured works</p>
+            <seation class="src">
+                
+                <div>
+                    <img src="./mashud1.jpg">
+                </div>
+                <div>
+                    <h1>Desining Dashboards</h1>
+                    <p> <span class="span">2020</span> <span class="da">Dashboard</span></p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua solor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </seation>
+            <seation class="src" id="two">
+                <div>
+                    <img src="./mashud2.jpg">
+                </div>
+                <div>
+                    <h1>Vibrant Portraits of 2020</h1>
+                    <p><span class="span">2018</span>  <span class="da">Illustration</span></p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua solor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </seation>
+            <seation class="src">
+                <div>
+                    <img src="./mashud3.jpg">
+                </div>
+                <div>
+                    <h1>36 Days of Malayalam type</h1>
+                    <p><span class="span">2018</span> <span class="da">Typography</span></p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua solor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </seation>
+            <seation class="ime" id="all">
+                
+                    <img src="./maksudur6.jpg">
+                
+                    <img src="./aboeany1.jpg">
+                
+                    <img src="./maksudur5.jpg">
+            
+                    <img src="./maksudur4.jpg">
+                    
+            </seation>
+            <p id="all">Copyright @2020 All rights reserved</p>
+    </div>
+</body>
+</html>
